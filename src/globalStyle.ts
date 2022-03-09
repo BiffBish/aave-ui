@@ -13,6 +13,14 @@ const staticStyles = css.global`
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoMedium/RobotoMedium', 500);
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoBold/RobotoBold', 600);
 
+  // @include font-face('NeueMachina-Light', './fonts/NeueMachina/NeueMachina-Light.woff', 300);
+  @font-face {
+    font-family: 'Neue-Machina';
+    src: url('/fonts/NeueMachina-Light.woff') format('woff'),
+      // url('/fonts/NeueMachina-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+  }
   * {
     padding: 0;
     margin: 0;
