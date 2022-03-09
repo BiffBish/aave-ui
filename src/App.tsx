@@ -119,11 +119,11 @@ const App: React.FC = () => {
         <Switch>
           <Route component={ModulesWithMenu} />
         </Switch>
+        test
       </div>
 
       <style jsx={true} global={true}>
         {staticStyles}
-        test
       </style>
     </div>
   );
