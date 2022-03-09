@@ -123,6 +123,7 @@ const App: React.FC = () => {
 
       <style jsx={true} global={true}>
         {staticStyles}
+        test
       </style>
     </div>
   );
