@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import classNames from 'classnames';
 
-import { useThemeContext, ScrollBar } from '@aave/aave-ui-kit';
+import { useThemeContext, ScrollBar } from '@biffbish/aave-ui-kit';
 
 interface CustomScrollProps {
   children: ReactNode;

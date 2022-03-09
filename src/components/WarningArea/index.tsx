@@ -1,7 +1,7 @@
 import React, { ReactNode, ReactNodeArray } from 'react';
 import classNames from 'classnames';
 
-import { useThemeContext } from '@aave/aave-ui-kit';
+import { useThemeContext } from '@biffbish/aave-ui-kit';
 
 import staticStyles from './style';
 

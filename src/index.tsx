@@ -1,5 +1,5 @@
 import 'react-app-polyfill/stable';
-import '@aave/aave-ui-kit/dist/aave-ui-kit.cjs.development.css';
+import '@biffbish/aave-ui-kit/dist/aave-ui-kit.cjs.development.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -12,7 +12,8 @@ import TagManager from 'react-gtm-module';
 import * as serviceWorker from './serviceWorker';
 
 import initSentry from './libs/sentry';
-import { ThemeProvider } from '@aave/aave-ui-kit';
+import { ThemeProvider } from '@biffbish/aave-ui-kit';
+import { ThemeProvider } from './libs/theme-provider';
 import { LanguageProvider } from './libs/language-provider';
 import { Web3Provider } from './libs/web3-data-provider';
 import WrappedApolloProvider from './libs/apollo-config';

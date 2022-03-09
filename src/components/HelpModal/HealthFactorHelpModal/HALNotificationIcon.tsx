@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 import classNames from 'classnames';
-import { CustomTooltip } from '@aave/aave-ui-kit';
+import { CustomTooltip } from '@biffbish/aave-ui-kit';
 
 import { useUserWalletDataContext } from '../../../libs/web3-data-provider';
 import { useProtocolDataContext } from '../../../libs/protocol-data-provider';

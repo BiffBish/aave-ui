@@ -1,5 +1,5 @@
 import React from 'react';
-import { gradient, useThemeContext } from '@aave/aave-ui-kit';
+import { gradient, useThemeContext } from '@biffbish/aave-ui-kit';
 
 interface GradientLineProps {
   height?: number;

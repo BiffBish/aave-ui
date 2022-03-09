@@ -2,7 +2,7 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { useSwipeable } from 'react-swipeable';
 import css from 'styled-jsx/css';
-import { useThemeContext } from '@aave/aave-ui-kit';
+import { useThemeContext } from '@biffbish/aave-ui-kit';
 
 import { useStaticPoolDataContext } from './libs/pool-data-provider';
 import { useMenuContext } from './libs/menu';
@@ -119,7 +119,6 @@ const App: React.FC = () => {
         <Switch>
           <Route component={ModulesWithMenu} />
         </Switch>
-        test
       </div>
 
       <style jsx={true} global={true}>

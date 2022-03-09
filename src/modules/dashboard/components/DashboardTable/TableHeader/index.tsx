@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { useThemeContext } from '@aave/aave-ui-kit';
+import { useThemeContext } from '@biffbish/aave-ui-kit';
 import CollateralHelpModal from '../../../../../components/HelpModal/CollateralHelpModal';
 import BorrowInterestHelpModal from '../../../../../components/HelpModal/BorrowInterestHelpModal';
 

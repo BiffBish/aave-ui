@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 import { useIntl } from 'react-intl';
-import { useThemeContext } from '@aave/aave-ui-kit';
+import { useThemeContext } from '@biffbish/aave-ui-kit';
 import ValuePercent from '../../basic/ValuePercent';
 
 import messages from './messages';

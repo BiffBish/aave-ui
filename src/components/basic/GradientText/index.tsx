@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import { gradient } from '@aave/aave-ui-kit';
+import { gradient } from '@biffbish/aave-ui-kit';
 
 import staticStyles from './style';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 import classNames from 'classnames';
-import { gradient, rgba, useThemeContext } from '@aave/aave-ui-kit';
+import { gradient, rgba, useThemeContext } from '@biffbish/aave-ui-kit';
 
 import GradientText from '../../basic/GradientText';
 

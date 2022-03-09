@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 import classNames from 'classnames';
-import { useThemeContext } from '@aave/aave-ui-kit';
+import { useThemeContext } from '@biffbish/aave-ui-kit';
 
 import TailArrow from '../../../../components/basic/TailArrow';
 import { HistoryItemTypes } from '../../types';
