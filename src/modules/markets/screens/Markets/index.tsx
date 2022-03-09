@@ -16,7 +16,7 @@ import MarketTableItem from '../../components/MarketTableItem';
 import TotalMarketsSize from '../../components/TotalMarketsSize';
 import LabeledSwitcher from '../../../../components/basic/LabeledSwitcher';
 import MarketMobileCard from '../../components/MarketMobileCard';
-
+import MarketSplashHeader from '../../components/MarketSplashHeader';
 import messages from './messages';
 import staticStyles from './style';
 import { useIncentivesDataContext } from '../../../../libs/pool-data-provider/hooks/use-incentives-data-context';
@@ -105,6 +105,7 @@ export default function Markets() {
       className="Markets"
       withMobileGrayBg={true}
     >
+      <MarketSplashHeader />
       <TopPanelWrapper isCollapse={true} withoutCollapseButton={true}>
         <div className="Markets__top-content">
           <TotalMarketsSize value={totalLockedInUsd.toNumber()} />
