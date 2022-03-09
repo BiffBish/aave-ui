@@ -146,6 +146,23 @@ export default function Menu({ title }: MenuProps) {
             </div>
           </div>
         </div>
+        <style jsx={true} global={true}>
+          {staticStyles}
+        </style>
+        <style jsx={true} global={true}>{`
+          .Menu {
+            background: ${currentTheme.headerBg.hex};
+            &:after {
+              background: ${topLineColor};
+            }
+
+            &__title-inner {
+              p {
+                color: ${currentTheme.white.hex};
+              }
+            }
+          }
+        `}</style>
       </header>
 
       {/* <header className="Menu">
@@ -178,25 +195,9 @@ export default function Menu({ title }: MenuProps) {
             <AddressInfo />
           </div>
         </div>
+ */}
 
-        <style jsx={true} global={true}>
-          {staticStyles}
-        </style>
-        <style jsx={true} global={true}>{`
-          .Menu {
-            background: ${currentTheme.headerBg.hex};
-            &:after {
-              background: ${topLineColor};
-            }
-
-            &__title-inner {
-              p {
-                color: ${currentTheme.white.hex};
-              }
-            }
-          }
-        `}</style>
-      </header> */}
+      {/* </header> */}
     </>
   );
 }
