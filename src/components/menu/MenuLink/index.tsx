@@ -28,7 +28,7 @@ export default function MenuLink({ to, title, isActive, hidden }: MenuLinkProps)
   return (
     <Link
       to={to}
-      className={classNames('MenuLink ButtonLink', {
+      className={classNames('Link Link__primary MenuLink ButtonLink', {
         MenuLink__active: isActive,
         MenuLink__hidden: hidden,
       })}
