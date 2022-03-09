@@ -12,11 +12,9 @@ const staticStyles = css.global`
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoLight/RobotoLight', 300);
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoMedium/RobotoMedium', 500);
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoBold/RobotoBold', 600);
-  @include font-face {'Poppins', '/fonts/Poppins/Poppins-Regular', 400);
-  @include font-face {'Neue-Machina', '/fonts/NeueMachina/NeueMachina-Light', 300);
+  @include font-face('Poppins', '/fonts/Poppins/Poppins-Regular', 400);
+  @include font-face('Neue-Machina', '/fonts/NeueMachina/NeueMachina-Light', 300);
 
-
-  
   * {
     padding: 0;
     margin: 0;

@@ -100,6 +100,7 @@ export default function ScreenWrapper({
               : isCurrentThemeDark
               ? currentTheme.mainBg.hex
               : currentTheme.white.hex};
+            color: ${currentTheme.mainText.hex};
           }
 
           &__mobileSubTitle {
