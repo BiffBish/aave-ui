@@ -12,12 +12,15 @@ const staticStyles = css.global`
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoLight/RobotoLight', 300);
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoMedium/RobotoMedium', 500);
   @include font-face('roboto-font', '${PUBLIC_URL}/fonts/RobotoBold/RobotoBold', 600);
-
-  // @include font-face('NeueMachina-Light', './fonts/NeueMachina/NeueMachina-Light.woff', 300);
+  @font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins/Poppins-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
   @font-face {
     font-family: 'Neue-Machina';
-    src: url('/fonts/NeueMachina-Light.woff') format('woff'),
-      // url('/fonts/NeueMachina-Light.ttf') format('truetype');
+    src: url('/fonts/NeueMachina/NeueMachina-Light.woff') format('woff');
     font-style: normal;
     font-weight: 300;
   }

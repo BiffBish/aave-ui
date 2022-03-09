@@ -2,6 +2,13 @@ import css from 'styled-jsx/css';
 
 /*language=SCSS*/
 const staticStyles = css.global`
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+  }
   .top__content {
     position: relative;
     padding: 160px 0 260px;

@@ -57,7 +57,7 @@ export default function ScreensWrapper({ children }: ScreensWrapperProps) {
       <TopDisclaimer />
 
       <main className="ScreensWrapper__content" id="ScreensWrapper__content-wrapper">
-        <div className="ScreensWrapper__top-contentWrapper" />
+        {/* <div className="ScreensWrapper__top-contentWrapper" /> */}
         <Menu title={title} />
 
         <TitleContext.Provider value={{ title, setTitle }}>
