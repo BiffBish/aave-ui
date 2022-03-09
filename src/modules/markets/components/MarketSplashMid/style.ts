@@ -23,6 +23,7 @@ const staticStyles = css.global`
     font-weight: 300;
     font-size: 100px;
     position: relative;
+    color: white;
   }
   .holders__title img {
     position: absolute;
@@ -35,6 +36,7 @@ const staticStyles = css.global`
     font-family: Poppins;
     font-weight: 400;
     font-size: 18px;
+    color: white;
   }
   .holders__items {
     width: calc(100% - 573px);
@@ -244,8 +246,10 @@ const staticStyles = css.global`
     font-family: 'Neue-Machina', sans-serif;
     font-weight: 300;
     font-size: 100px;
+    color: white;
   }
   .top__content-text {
+    color: white;
     line-height: 150%;
     margin-bottom: 50px;
     max-width: 504px;
@@ -513,6 +517,7 @@ const staticStyles = css.global`
   @media only screen and (max-width: 450px) {
     .top__content {
       padding-bottom: 500px;
+      color: white;
     }
     .top__content-star-t {
       top: 500px;

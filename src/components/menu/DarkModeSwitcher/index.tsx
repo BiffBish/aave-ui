@@ -18,8 +18,9 @@ export default function DarkModeSwitcher() {
       value={isCurrentThemeDark}
       leftOption={intl.formatMessage(messages.off)}
       rightOption={intl.formatMessage(messages.on)}
-      onToggle={() =>
-        isCurrentThemeDark ? changeTheme(ThemeNames.default) : changeTheme(ThemeNames.dark)
+      onToggle={
+        () => {}
+        // isCurrentThemeDark ? changeTheme(ThemeNames.default) : changeTheme(ThemeNames.dark)
       }
       labelUppercase={true}
     />
