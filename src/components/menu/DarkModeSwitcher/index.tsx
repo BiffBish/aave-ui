@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useIntl } from 'react-intl';
 import { useThemeContext, ThemeNames } from '@aave/aave-ui-kit';
 
@@ -9,7 +9,9 @@ import messages from './messages';
 export default function DarkModeSwitcher() {
   const intl = useIntl();
   const { isCurrentThemeDark, changeTheme } = useThemeContext();
-
+  useEffect(() => {
+    changeTheme(ThemeNames.dark);
+  }, []);
   return (
     <SwitcherWrapper
       title={intl.formatMessage(messages.darkMode)}
