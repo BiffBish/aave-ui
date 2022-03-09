@@ -55,19 +55,18 @@ export default function ScreensWrapper({ children }: ScreensWrapperProps) {
       <BottomDisclaimer />
 
       <TopDisclaimer />
-      <Menu title={title} />
 
       <main className="ScreensWrapper__content" id="ScreensWrapper__content-wrapper">
         <div className="ScreensWrapper__top-contentWrapper" />
+        <Menu title={title} />
 
         <TitleContext.Provider value={{ title, setTitle }}>
           <TopPanelSmallContext.Provider value={{ isTopPanelSmall, setTopPanelSmall }}>
             {children}
           </TopPanelSmallContext.Provider>
         </TitleContext.Provider>
+        <Footer inside={true} />
       </main>
-
-      <Footer inside={true} />
 
       <img
         className="ScreensWrapper__background"
