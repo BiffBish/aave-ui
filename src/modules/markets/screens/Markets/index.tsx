@@ -106,8 +106,6 @@ export default function Markets() {
       className="Markets"
       withMobileGrayBg={true}
     >
-      <MarketSplashMid />
-
       <MarketSplashHeader />
       <TopPanelWrapper isCollapse={true} withoutCollapseButton={true}>
         <div className="Markets__top-content">
@@ -115,6 +113,7 @@ export default function Markets() {
           <SelectMarketPanel />
         </div>
       </TopPanelWrapper>
+
       <div className="Markets__size">
         <TotalMarketsSize value={totalLockedInUsd.toNumber()} />
       </div>
@@ -153,7 +152,7 @@ export default function Markets() {
           <MarketMobileCard {...item} key={index} />
         ))}
       </div>
-
+      <MarketSplashMid />
       <style jsx={true} global={true}>
         {staticStyles}
       </style>
