@@ -2,18 +2,6 @@ import css from 'styled-jsx/css';
 
 /*language=SCSS*/
 const staticStyles = css.global`
- 
-  
-  @media only screen and (max-width: 1100px) {
-    
-  }
-  @media only screen and (max-width: 750px) {
-   
-  }
-  
-  @media screen and (max-width: 767px) {
-    
-  }
   .top__content {
     position: relative;
     padding: 160px 0 260px;
@@ -148,13 +136,11 @@ const staticStyles = css.global`
   .top__content-num + .top__content-num {
     margin-left: 64px;
   }
- 
   @media only screen and (max-width: 1100px) {
     .top__content {
       top: -67px;
     }
   }
- 
   @media screen and (max-width: 850px) {
     .top__content-star-t {
       position: absolute;
@@ -201,18 +187,12 @@ const staticStyles = css.global`
       transform: translate(83%, 34px);
     }
   }
-
-  @media only screen and (max-width: 750px) {
-   
-  }
   @media only screen and (max-width: 650px) {
     .top__content:after {
       top: 526px;
       -webkit-transform: translate(52%, -7px);
       transform: translate(52%, -7px);
     }
-  }
-  @media only screen and (max-width: 608px) {\
   }
   @media only screen and (max-width: 550px) {
     .top__content:after {

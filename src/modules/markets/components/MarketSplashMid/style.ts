@@ -2,10 +2,10 @@ import css from 'styled-jsx/css';
 
 /*language=SCSS*/
 const staticStyles = css.global`
-holders {
-  position:relative;
-  padding-top:200px;
-  padding-bottom:200px
+  .holders {
+    position:relative;
+    padding-top:200px;
+    padding-bottom:200px
  }
  .holders__inner {
   display:flex;
