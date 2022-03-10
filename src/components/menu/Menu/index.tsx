@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useIntl } from 'react-intl';
 import classNames from 'classnames';
 import { rgba, useThemeContext } from '@biffbish/aave-ui-kit';
@@ -11,15 +11,15 @@ import Link from '../../basic/Link';
 // import MarketSwitcher from '../../market/MarketSwitcher';
 import MenuLink from '../MenuLink';
 import MoreButton from '../MoreButton';
-import AddressInfo from '../AddressInfo';
-import MobileContent from '../MobileContent';
+// import AddressInfo from '../AddressInfo';
+// import MobileContent from '../MobileContent';
 import { LOGO } from '../../../ui-config';
 
 import staticStyles from './style';
 
 import navigation from '../navigation';
 
-import backIcon from '../../../images/mobileBackArrow.svg';
+// import backIcon from '../../../images/mobileBackArrow.svg';
 
 interface MenuProps {
   title: string;
@@ -27,7 +27,7 @@ interface MenuProps {
 
 export default function Menu({ title }: MenuProps) {
   const location = useLocation();
-  const history = useHistory();
+  // const history = useHistory();
   const intl = useIntl();
   const { currentTheme } = useThemeContext();
   const { currentAccount } = useUserWalletDataContext();
